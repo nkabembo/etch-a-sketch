@@ -6,23 +6,42 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href=""/>
     <title>Document</title>
+    <script src="art.js" defer></script>
 </head>
 <body>
     <div class="outline">
         <h1>Etch-a-Sketch</h1>
-        <div class="canvas">
-
-        </div>
-        <div class="controls">
-
-            <button>Rainbow</button>
-            <button>Grayscale</button>
-            <button>Lighten</button>
-            <input type="range" min="1" max="100" value="16" class="slider" id="myRange">
-            <button>Erase</button>
-            <button>Clear</button>
+        <div class="middle">
+            <div class="controls">
+                <input type="color" id="colours">
+                <button class="rainbowbtn">Rainbow</button>
+                <button class="graybtn">Grayscale</button>
+                <button class="lightbtn">Lighten</button>
+                <div class="grid">
+                <span>Grid Size: <span id="grid-name"> 16 X 16</span></span> 
+                <input type="range" min="1" max="100" value="16" class="slider" id="grid-range">
+                
+            </div>
             
+               
+            </div>
+            <div class="canvas">
+
+            </div>
+            <div class="controls">
+            
+            
+                <button class="erasebtn">Erase</button>
+                <button class="clearbtn">Clear</button>
+                
+            </div>
+
         </div>
+        <h3>
+            Copyright © Naghmeh Kabembo
+        </h3>
+        
+        
     </div>
 </body>
 </html>

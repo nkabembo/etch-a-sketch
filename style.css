@@ -6,11 +6,15 @@ body{
 }
 .outline{
     background-color: #700548;
-    height:80vh;
-    margin-top: 4.5em;
+    height:94vh;
+    margin-top: 0.5em;
     width: 1000px;
     margin-left: auto;
     margin-right:auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
+    display: flex;
+    flex-direction: column;
 }
 h1{
     color: white;
@@ -19,4 +23,61 @@ h1{
 }
 .canvas{
     background-color: white;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-self: center;
+}
+input[type="color"] {
+    border:none;
+    width: 32px;
+    height: 32px;
+    outline:none;
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+.middle{
+    display:flex;
+    justify-content: space-around;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+span{
+    color: white;
+}
+button{
+    border-radius: 25px;
+    padding: 5px 25px;
+    font-size: 17px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
+}
+.rainbowbtn{
+    background-image:linear-gradient(to right, #F86065 , aqua,#FFED66,#7899D4);
+}
+.graybtn{
+    background-color: #FFED66;
+    
+}
+.lightbtn{
+    background-color:#F86065;
+    color: white;
+}
+.erasebtn{
+    background-color: aqua;
+}
+.clearbtn{
+    background-color: #7899D4;
+    color: white;
+}
+h3{
+    text-align: center;
+    color:white;
 }
