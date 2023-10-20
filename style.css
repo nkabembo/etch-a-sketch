@@ -7,7 +7,6 @@ body{
 .outline{
     background-color: #700548;
     height:94vh;
-    margin-top: 0.5em;
     width: 1000px;
     margin-left: auto;
     margin-right:auto;
@@ -15,18 +14,23 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
     display: flex;
     flex-direction: column;
+    gap: 0.15em;
+    justify-content: center;
 }
 h1{
     color: white;
     text-align: center;
+    margin-top: 1.5em;
 
 }
-.canvas{
+#canvas{
     background-color: white;
-    height: 500px;
-    width: 500px;
+    height: 570px;
+    width: 570px;
     justify-content: center;
     align-self: center;
+    display:flex;
+    flex-wrap: wrap;
 }
 input[type="color"] {
     border:none;
@@ -79,5 +83,7 @@ button{
 }
 h3{
     text-align: center;
-    color:white;
+}
+.square{
+    flex: 1;
 }
