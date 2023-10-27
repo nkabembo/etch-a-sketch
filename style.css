@@ -61,25 +61,65 @@ button{
     padding: 5px 25px;
     font-size: 17px;
     border: none;
+    transition-duration: 0.4s;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.123);
+}
+button:focus{
+    box-shadow: 0 1px 10px 0 rgb(255, 255, 255);
 }
 .rainbowbtn{
     background-image:linear-gradient(to right, #F86065 , aqua,#FFED66,#7899D4);
 }
+.rainbowbtn:hover{
+    background-image: none; 
+    color:#F86065;
+}
 .graybtn{
     background-color: #FFED66;
+    
+}
+.graybtn:hover{
+    background-color: white; 
+    color: black; 
+    outline: 4px solid #FFED66;
     
 }
 .lightbtn{
     background-color:#F86065;
     color: white;
 }
+.lightbtn:hover{
+    background-color: white; 
+    color: black; 
+    outline: 4px solid #F86065;
+   
+}
 .erasebtn{
     background-color: aqua;
+}
+.erasebtn:hover{
+    background-color: white; 
+    color: black; 
+    outline: 4px solid aqua;
 }
 .clearbtn{
     background-color: #7899D4;
     color: white;
+}
+.clearbtn:hover{
+    background-color: white; 
+    color: black; 
+    outline: 4px solid  #7899D4;
+}
+.newbtn{
+    background-color:#99f47d;
+    color: black;
+}
+.newbtn:hover{
+    background-color: white; 
+    color: black; 
+    outline: 4px solid #99f47d;
+   
 }
 h3{
     text-align: center;
